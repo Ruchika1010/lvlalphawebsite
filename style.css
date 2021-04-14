@@ -1,0 +1,85 @@
+.topnav {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: rgba(3, 130, 246, 1)
+
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  text-decoration: underline;
+  text-decoration-thickness: 23;
+  color: rgba(3, 130, 246, 1) ;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+.img{ 
+  position: relative; 
+   /* for IE 6 */
+  width: 1440px;
+   height:507px; 
+}
+.first{ 
+  font-family:'Poppins';
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+position: absolute;
+font-size :40px;
+left: 60px;
+top: 180px;
+color : rgba(44, 72, 109, 1)
+
+}
+.second{
+  font-family:'Poppins';
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /*padding: 0px;*/
+  position: absolute;
+ font-size : 40px;
+left: 60px;
+top: 220px;
+color: rgba(3, 130, 246, 1)
+}
+.para{
+font-family:'Poppins';
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+position: absolute;
+
+font-size :12px;
+left: 60px;
+top: 310px;
+color : rgba(44, 72, 109, 1)
+}
+.text{
+  font-family: 'Poppins';
+  font-size : 25px;
+float:center;
+text-align: center;
+color : rgba(44, 72, 109, 1)
+}
+
+
