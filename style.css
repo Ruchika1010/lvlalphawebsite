@@ -161,3 +161,23 @@ H: 112.86px
   padding-top: 50px;
   color : rgba(246, 249, 252, 1)
   }
+  .box1{
+    width:"80";
+    height:280px;
+    float:center;
+    margin-left:0;
+    margin-top: 100px;
+    background: radial-gradient(#192E52 0.5%,#142440 400%);
+    overflow: hidden;
+    }
+    .box1 a{
+      /* margin-left: 160px; */
+      margin-top: 75px;
+      padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    display: block;
+    color: #F6F9FC;
+    font-family: 'Poppins';
+    font-size: 17px; 
+    }
