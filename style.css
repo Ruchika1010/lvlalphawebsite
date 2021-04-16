@@ -1,0 +1,163 @@
+.topnav {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a.hover {
+  color: rgba(3, 130, 246, 1)
+
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  text-decoration: underline;
+  text-decoration-thickness: 23;
+  color: rgba(3, 130, 246, 1) ;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+.img{ 
+  position: relative; 
+   /* for IE 6 */
+  width: 1440px;
+   height:507px; 
+}
+.first{ 
+  font-family:'Poppins';
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+position: absolute;
+font-size :40px;
+left: 60px;
+top: 180px;
+color : rgba(44, 72, 109, 1)
+
+}
+.second{
+  font-family:'Poppins';
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /*padding: 0px;*/
+  position: absolute;
+ font-size : 40px;
+left: 60px;
+top: 220px;
+color: rgba(3, 130, 246, 1)
+}
+.para{
+font-family:'Poppins';
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+position: absolute;
+
+font-size :12px;
+left: 60px;
+top: 310px;
+color : rgba(44, 72, 109, 1)
+}
+.text{
+  font-family: 'Poppins';
+  font-size : 25px;
+float:center;
+text-align: center;
+color : rgba(44, 72, 109, 1)
+}
+
+
+/* .table{
+	display: table;    Allow the centering to work 
+	margin: 0 auto;
+}
+
+ul#menu {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+   X: 0px
+Y: 3.43px
+W: 178.03px
+H: 112.86px
+		display: inline;
+	} */
+
+  .column {
+    float: left;
+    width: 200px;
+    padding: 2px;
+    padding-left: 109px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .Products{
+    font-family: 'Poppins';
+    font-size : 25px;
+  float:left;
+  text-align: left;
+  color : rgba(44, 72, 109, 1);
+  padding-left: 109px;
+  }
+  .columns {
+    float: left;
+    width: 300px;
+    padding: 2px;
+    margin-top: 30px;
+    font-family: 'Poppins';
+    padding-left:109px;
+    /* background-color: rgba(224, 235, 246, 1); */
+  }
+  
+  /* Clear floats after image containers */
+  .rows::after {
+    padding-top: 10%;
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .Achievements{
+    font-family: 'Poppins';
+    font-size : 25px;
+  float:left;
+  text-align: left;
+  color : rgba(44, 72, 109, 1);
+  padding-left: 109px;
+  }
+  .box{
+    position:relative;
+  }
+  .mail{ 
+    font-family:'Poppins';
+    display: flex;
+  flex-direction:column;
+  font-size: 14px;
+  /* align-items: flex-start; */
+  position: absolute;
+  text-align: center;
+  float: center;
+  padding-left:200px;
+  padding-top: 50px;
+  color : rgba(246, 249, 252, 1)
+  }
