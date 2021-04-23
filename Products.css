@@ -1,0 +1,72 @@
+.topnav {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a.hover {
+    color: rgba(3, 130, 246, 1)
+  
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    text-decoration: underline;
+    color: rgba(3, 130, 246, 1) ;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  .background{
+    position: absolute;
+   
+    left: 70px;
+    top: 129px;
+    
+    background: #F6F9FC;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius:8px;
+    border-width: 0.05px;
+    
+  }
+  .text{
+    font-family: 'Poppins';
+    font-size : 25px;
+  float:center;
+  text-align: center;
+  color : rgba(44, 72, 109, 1)
+  }
+  .columns {
+    float: left;
+    width: 300px;
+    /* padding: 155px; */
+    /* margin-top: 30px; */
+    font-family: 'Poppins';
+    padding-left:109px;
+    padding-right:109px;
+    /* background-color: rgba(224, 235, 246, 1); */
+  }
+  
+  /* Clear floats after image containers */
+  .rows::after {
+    padding-top: 10%;
+    content: "";
+    clear: both;
+    display: table;
+  }
